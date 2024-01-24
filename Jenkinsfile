@@ -9,7 +9,6 @@ pipeline {
                 script {
                     // Your Docker build and push commands here
                     sh 'docker build -t your-image .'
-                    sh 'docker push your-image'
                 }
             }
         }
