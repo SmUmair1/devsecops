@@ -1,8 +1,6 @@
 pipeline {
     agent any
-     environment {
-        PATH = "/var/jenkins_home"
-    }
+
     stages {
         stage('Build and Push Docker Image') {
             steps {
