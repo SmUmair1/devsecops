@@ -8,7 +8,7 @@ pipeline {
             steps {
                 script {
                     // Your Docker build and push commands here
-                    sh 'docker build -t your-image .'
+                    sh 'docker build -t dockerfile:latest .'
                 }
             }
         }
